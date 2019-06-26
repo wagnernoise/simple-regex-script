@@ -15,6 +15,6 @@ new_text = pattern.sub('', text)
 
 file = open('new_requirements.txt', 'a')
 file.write(new_text)
-file.close
+file.close()
 
 #print(new_text)
